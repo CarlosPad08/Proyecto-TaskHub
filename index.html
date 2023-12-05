@@ -7,7 +7,14 @@
     <title>Lista de Tareas</title>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <h1>Lista de Tareas</h1>
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Agregar nueva tarea">
+            <button onclick="addTask()">Agregar tarea</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
